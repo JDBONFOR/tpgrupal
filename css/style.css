@@ -1,0 +1,40 @@
+.container {
+	max-width: 1200px; 
+	margin: auto;	
+}
+
+.header {
+	max-width: 100%;
+	height: 424px;
+	background-color: black;
+}
+
+.divblue {
+  height: 424px;
+  width: 70%;
+  display: inline-block;
+  float: right;
+  background-color: #1F82AE;
+}
+
+.logo {
+	width: 120px;
+  position: absolute;
+  left: 35%;
+  top: 10%;
+}
+
+.menu {
+  position: absolute;
+  float: right;
+  right: 25%;
+  top: 12%;
+}
+
+header h1 {
+	position: relative;
+  left: 6%;
+  top: 65%;
+  color: white;
+  font-size: 80px;
+}
