@@ -1,6 +1,7 @@
 .container {
 	max-width: 1200px; 
 	margin: auto;	
+	box-sizing: border-box;
 }
 
 .header {
@@ -37,4 +38,29 @@ header h1 {
   top: 65%;
   color: white;
   font-size: 80px;
+}
+
+/* Mi parte Marcos*/
+/* Letra párrafos dentro de los article.*/
+.estiloSecc2{
+	color:#969595;
+	font-size: 16px;
+	margin: 5px;
+	padding-top: 20px;
+}
+/* Mismo tamaño para imagenes que quieran 80px*/
+.image80
+{
+	width: 80px;
+	height: 80px;
+	padding-bottom: 30px;
+}
+
+/*Herencia para que respete estructura.*/
+section div article{
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	padding: 5px;
+	padding-top: 50px;
 }
