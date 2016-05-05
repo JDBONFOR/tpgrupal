@@ -64,3 +64,45 @@ section div article{
 	padding: 5px;
 	padding-top: 50px;
 }
+
+/* CUARTA SECTION */
+
+.cuarta-seccion {
+    background-color: #000;
+    text-align: center;
+    color: #FFF;
+    padding: 60px;
+}
+
+.cuarta-seccion > h2 {
+    margin-bottom: 8px;
+}
+
+.cuarta-seccion > p {
+    margin-bottom: 32px;
+}
+
+.contenedor-demos {
+    width: 1260px;
+    height: 526px;
+    margin: auto;
+}
+
+.demo {
+    color: #000;
+    background-color: #FFF;
+    display: inline-block;
+    text-align: center;
+    width: 370px;
+    height: 487px;
+    margin: 20px;
+}
+
+.demo > h3 {
+    margin: 24px 0px;
+}
+
+.demo > p {
+    color: #969595;
+}
+
