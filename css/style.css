@@ -57,7 +57,6 @@ header h1 {
   font-size: 80px;
 }
 
-<<<<<<< HEAD
 /******** SECTION 2 ********/
 /* Mi parte Marcos*/
 .services {
@@ -76,15 +75,10 @@ header h1 {
   margin: 30px 0px;
 }
 
-=======
-/* Mi parte Marcos*/
-/* Letra párrafos dentro de los article.*/
->>>>>>> 374a1e80826969ec6484501477a440399d8f7519
 .estiloSecc2{
 	color:#969595;
 	font-size: 16px;
 	margin: 5px;
-<<<<<<< HEAD
   line-height: 25px;
 }
 
@@ -177,65 +171,7 @@ header h1 {
 
 .demo > p {
   color: #969595;
-=======
 	padding-top: 20px;
 }
-/* Mismo tamaño para imagenes que quieran 80px*/
-.image80
-{
-	width: 80px;
-	height: 80px;
-	padding-bottom: 30px;
-}
 
-/*Herencia para que respete estructura.*/
-section div article{
-	display: inline-block;
-	text-align: center;
-	width: 20%;
-	padding: 5px;
-	padding-top: 50px;
-}
-
-/* CUARTA SECTION */
-
-.cuarta-seccion {
-    background-color: #000;
-    text-align: center;
-    color: #FFF;
-    padding: 60px;
-}
-
-.cuarta-seccion > h2 {
-    margin-bottom: 8px;
-}
-
-.cuarta-seccion > p {
-    margin-bottom: 32px;
-}
-
-.contenedor-demos {
-    width: 1260px;
-    height: 526px;
-    margin: auto;
-}
-
-.demo {
-    color: #000;
-    background-color: #FFF;
-    display: inline-block;
-    text-align: center;
-    width: 370px;
-    height: 487px;
-    margin: 20px;
-}
-
-.demo > h3 {
-    margin: 24px 0px;
-}
-
-.demo > p {
-    color: #969595;
->>>>>>> 374a1e80826969ec6484501477a440399d8f7519
-}
 
