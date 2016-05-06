@@ -1,7 +1,19 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .container {
 	max-width: 1200px; 
 	margin: auto;	
 }
+
+article {
+  display: inline-block;
+  text-align: center;
+}
+
+
+/***** HEADER Section *****/
 
 .header {
 	max-width: 100%;
@@ -25,10 +37,15 @@
 }
 
 .menu {
+  color: white;
   position: absolute;
   float: right;
-  right: 25%;
+  right: 30%;
   top: 12%;
+}
+
+.fa-lg {
+  font-size: 2em;
 }
 
 header h1 {
@@ -38,3 +55,120 @@ header h1 {
   color: white;
   font-size: 80px;
 }
+
+/******** SECTION 2 ********/
+/* Mi parte Marcos*/
+.services {
+  height: 420px;
+  text-align: center;
+}
+
+.services article {
+  width: 20%;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.services h4 {
+  font-size: 22px;
+  margin: 30px 0px;
+}
+
+.estiloSecc2{
+	color:#969595;
+	font-size: 16px;
+	margin: 5px;
+  line-height: 25px;
+}
+
+.image80 {
+	width: 80px;
+	height: 80px;
+}
+
+
+/******** SECTION 3 ********/
+/* Parte de Axel*/
+.phone {
+  background-color: #f9f9f9;
+  height: 540px;
+  box-sizing: border-box;
+  padding-top: 80px;
+}
+
+.estiloSecc3{
+  color:#969595;
+  font-size: 16px;
+  margin: 20px 0px;
+  padding: 30px 0px;
+  text-align: left;
+}
+
+.estiloLista3
+{
+  color:#969595;
+  font-size: 16px;
+  margin-bottom: 30px;
+  list-style-type: square;
+  text-align: left;
+}
+
+.buttonsection3 {
+  background: #31aae2;
+  color: white;
+  border: 0px;
+  height: 45px;
+  width: 130px;
+}
+
+.article1 {
+  height: 350px;
+  margin-left: 50px;
+  padding-left: 50px;
+  width: 35%;
+  text-align: left;
+  position: relative;
+  top: -50px;
+}
+
+.article1 h4 {
+  font-size: 20px;
+}
+
+
+/******** SECTION 4 ********/
+
+.cuarta-seccion {
+  background-color: #000;
+  text-align: center;
+  color: #FFF;
+  padding: 60px;
+}
+
+.cuarta-seccion > h2 {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.cuarta-seccion > p {
+  margin-bottom: 32px;
+}
+
+.demo {
+  color: #000;
+  background-color: #FFF;
+  display: inline-block;
+  text-align: center;
+  width: 350px;
+  height: 487px;
+  margin: 20px;
+}
+
+.demo > h3 {
+  margin: 24px 0px;
+}
+
+.demo > p {
+  color: #969595;
+}
+
